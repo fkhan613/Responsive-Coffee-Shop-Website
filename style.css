@@ -86,65 +86,75 @@ body {
 }
 
 #menu-btn {
-    display: none;
+  display: none;
 }
 
 .header .search-form {
-    position: absolute;
-    top:115%; right:7%;
-    width: 50rem;
-    height: 5rem;
-    display:flex;
-    align-items: center;
-    background: #fff;
-    transform: scaleY(0);
-    transform-origin: top;
+  position: absolute;
+  top: 115%;
+  right: 7%;
+  width: 50rem;
+  height: 5rem;
+  display: flex;
+  align-items: center;
+  background: #fff;
+  transform: scaleY(0);
+  transform-origin: top;
 }
 
 .header .search-form input {
-    width: 100%;
-    height: 100%;
-    padding: 1rem;
-    background: #fff;
-    font-size: 1.6rem;
-    color: var(--black);
-    text-transform: none;
+  width: 100%;
+  height: 100%;
+  padding: 1rem;
+  background: #fff;
+  font-size: 1.6rem;
+  color: var(--black);
+  text-transform: none;
 }
 
-.header .search-form label{
-    color: var(--black);
-    font-size: 2.2rem;
-    cursor: pointer;
-    margin-right: 1.5rem;
+.header .search-form label {
+  color: var(--black);
+  font-size: 2.2rem;
+  cursor: pointer;
+  margin-right: 1.5rem;
 }
 
-.header .search-form label:hover{
-    color: var(--main-color);
-
+.header .search-form label:hover {
+  color: var(--main-color);
 }
 
 .header .cart-items-container {
-    position: absolute;
-    top:100%; right:0;
-    height: calc(100vh - 9.5rem);
-    width: 35rem;
-    background: #fff;
-    padding:0 1.5rem;
-    overflow: auto;
+  position: absolute;
+  top: 100%;
+  right: 0;
+  height: calc(100vh - 9.5rem);
+  width: 35rem;
+  background: #fff;
+  padding: 0 1.5rem;
+  overflow: auto;
 }
 
 .header .cart-items-container .cart-item {
-    position: relative;
-    display: flex;
-    align-items: center;
-    margin: 2rem 0;
-    gap:1.5rem;
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin: 2rem 0;
+  gap: 1.5rem;
 }
 
 .header .cart-items-container .cart-item .fa-times {
-    position: absolute;
-    top:1rem; right:1rem;
-    font-size: 2rem;
-    color: var(--black);
-    cursor: pointer;
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  font-size: 2rem;
+  color: var(--black);
+  cursor: pointer;
+}
+
+.header .cart-items-container .cart-item .fa-times:hover {
+  color: var(--main-color);
+}
+
+.header .cart-items-container .cart-item img {
+  height: 7rem;
 }
