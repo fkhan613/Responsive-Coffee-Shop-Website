@@ -132,6 +132,8 @@ body {
   background: #fff;
   padding: 0 1.5rem;
   overflow: auto;
+  border-radius: 2rem;
+  margin-right: 1rem;
 }
 
 .header .cart-items-container .cart-item {
