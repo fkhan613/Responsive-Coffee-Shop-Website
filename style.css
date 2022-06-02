@@ -122,3 +122,29 @@ body {
     color: var(--main-color);
 
 }
+
+.header .cart-items-container {
+    position: absolute;
+    top:100%; right:0;
+    height: calc(100vh - 9.5rem);
+    width: 35rem;
+    background: #fff;
+    padding:0 1.5rem;
+    overflow: auto;
+}
+
+.header .cart-items-container .cart-item {
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin: 2rem 0;
+    gap:1.5rem;
+}
+
+.header .cart-items-container .cart-item .fa-times {
+    position: absolute;
+    top:1rem; right:1rem;
+    font-size: 2rem;
+    color: var(--black);
+    cursor: pointer;
+}
