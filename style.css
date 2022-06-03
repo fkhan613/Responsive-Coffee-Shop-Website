@@ -43,6 +43,10 @@ body {
   background: var(--bg);
 }
 
+section {
+  padding: 2rem 7%;
+}
+
 .btn {
   margin-top: 1rem;
   display: inline-block;
@@ -200,6 +204,33 @@ body {
   text-align: center;
 }
 
+.home {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  background: url(../images/home-img.jpeg) no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.home .home-content {
+  max-width: 60rem;
+}
+
+.home .home-content h3 {
+  font-size: 6rem;
+  transform: uppercase;
+  color: #fff;
+}
+
+.home .home-content p {
+  font-size: 2rem;
+  font-weight: lighter;
+  color: #eee;
+  line-height: 1.8;
+  padding: 1rem 0;
+}
+
 /*media queries*/
 @media (max-width: 991px) {
   html {
@@ -208,6 +239,10 @@ body {
 
   .header {
     padding: 1.5rem 2rem;
+  }
+
+  section {
+    padding: 2rem 7%;
   }
 }
 
@@ -241,6 +276,20 @@ body {
   .header .search-form {
     width: 90%;
     right: 2rem;
+  }
+
+  .home {
+    background-position: left;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .home .home-content h3 {
+    font-size: 4.5rem;
+  }
+
+  .home .home-content P {
+    font-size: 1.5rem;
   }
 }
 
