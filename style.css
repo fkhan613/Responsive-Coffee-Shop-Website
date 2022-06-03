@@ -222,7 +222,7 @@ section {
   min-height: 100vh;
   display: flex;
   align-items: center;
-  background: url(../images/home-img.jpeg) no-repeat;
+  background: url(images/home-img.jpeg) no-repeat;
   background-size: cover;
   background-position: center;
 }
@@ -333,12 +333,12 @@ section {
   padding: 2rem;
 }
 
-.about .row .about-content h3{
+.about .row .about-content h3 {
   font-size: 3rem;
   color: #fff;
 }
 
-.about .row .about-content p{
+.about .row .about-content p {
   font-size: 1.6rem;
   color: #ccc;
   padding: 1rem 0;
