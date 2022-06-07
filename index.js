@@ -2,12 +2,6 @@ let navbar = document.querySelector(".navbar");
 let cartList = document.querySelector(".cart-items-container");
 let searchBar = document.querySelector(".search-form");
 
-document.querySelector("#get-your-now-btn").onclick = () => {
-    cartList.classList.toggle("active");
-    navbar.classList.remove("active");
-    searchBar.classList.remove("active");
-}
-
 document.querySelector("#menu-btn").onclick = () => {
   navbar.classList.toggle("active");
   cartList.classList.remove("active");
