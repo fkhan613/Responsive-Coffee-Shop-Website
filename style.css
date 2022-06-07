@@ -4,7 +4,7 @@
   --main-color: #d3ad7f;
   --black: #13131a;
   --bg: #010103;
-  --border: 1rem solid rgba(255, 255, 255, 0.3);
+  --border: .3rem solid rgba(255, 255, 255, 0.3);
 }
 
 * {
@@ -343,4 +343,41 @@ section {
   color: #ccc;
   padding: 1rem 0;
   line-height: 1.8;
+}
+
+.menu .box-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+  gap: 1.5rem;
+}
+
+.menu .box-container .box {
+  padding: 5rem;
+  text-align: center;
+  border: var(--border);
+  border-radius: 1.5rem;
+}
+
+.menu .box-container .box img {
+  height: 12rem;
+}
+
+.menu .box-container .box h3 {
+  color: #fff;
+  font-size: 2rem;
+  padding: 1.1rem 0;
+}
+
+.menu .box-container .box .price {
+  color: #fff;
+  font-size: 2.5rem;
+  padding: 0.5rem 0;
+}
+
+.menu .box-container .box:hover {
+  background: #fff;
+}
+
+.menu .box-container .box:hover > *{
+  color: var(--black);
 }
