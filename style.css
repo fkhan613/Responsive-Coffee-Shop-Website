@@ -211,6 +211,19 @@ section {
   margin-right: 1rem;
 }
 
+.header .cart-items-container::-webkit-scrollbar {
+  width: 0.8rem;
+}
+
+.header .cart-items-container::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.header .cart-items-container::-webkit-scrollbar-thumb {
+  background: rgb(139, 139, 139);
+  border-radius: 5rem;
+}
+
 .header .cart-items-container.active {
   right: 0;
   transition: 0.2s ease-in-out;
