@@ -1,5 +1,4 @@
 # Responsive-Coffee-Shop-Website
-UNDER DEVELOPMENT
 
  This is a responsive coffee shop website that I am building to practice my web development skills.
 
